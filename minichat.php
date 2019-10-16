@@ -42,7 +42,7 @@
 try
 {
 	// Connexion à la base de données
-	$bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', '');
+	$bdd = new PDO('mysql:host=localhost;dbname=test2;charset=utf8', 'root', '');
 }
 catch(Exception $e)
 {

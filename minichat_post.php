@@ -4,7 +4,7 @@
 // Connexion à la base de données
 try
 {
-       $bdd = new PDO('mysql:host=localhost;dbname=test', 'root', '');
+       $bdd = new PDO('mysql:host=localhost;dbname=test2', 'root', '');
 }
 catch(Exception $e)
 {
